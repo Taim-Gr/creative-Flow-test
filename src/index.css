@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #6d3bff;
+  --color-secondary: #f7f8ff;
+
+  /* add more custom vars as needed */
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "montserratBlack";
+  src: url("./assets/fonts/Montserrat-Black.ttf");
+  font-weight: 700;
+}
