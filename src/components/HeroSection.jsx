@@ -3,7 +3,7 @@ import "./HeroSection.css";
 export default function HeroSection() {
   return (
     <div className="max-w-screen-2xl mx-auto flex justify-center px-8 bg-secondary font-[montserrat]">
-      <div className="flex flex-row lg:h-screen py-10 justify-between items-center gap-x-20 max-lg:flex-col gap-y-10 ">
+      <div className="flex flex-row lg:h-screen py-10 justify-between items-center gap-x-20 max-lg:flex-col max-lg:gap-y-10 ">
         {/* Text + CTA */}
         <div className="text flex-1 max-lg:text-center">
           <h1 className="text-5xl font-bold ">
@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="flex-1 flex bg-white justify-center items-center rounded-3xl py-6 px-2 shadow-lg">
           <img
             src={abstractImage}
-            className="h-[600px] w-[400px] rounded-xl animate-float-move drop-shadow-blue-100 drop-shadow-2xl"
+            className="h-[600px] w-[400px] rounded-xl animate-float-move drop-shadow-blue-100 drop-shadow-2xl max-sm:h-[450px]"
           />
         </div>
       </div>
