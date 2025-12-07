@@ -32,7 +32,7 @@ export default function HeroSection() {
         <div className="flex-1 flex bg-white justify-center items-center rounded-3xl py-6 px-2 shadow-lg">
           <img
             src={abstractImage}
-            className="h-[600px] w-[400px] rounded-xl animate-float-move drop-shadow-blue-100 drop-shadow-2xl max-sm:h-[450px]"
+            className="h-[600px] w-[400px] rounded-xl animate-float-move drop-shadow-blue-100 drop-shadow-2xl max-sm:h-auto "
           />
         </div>
       </div>
